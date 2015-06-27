@@ -1,0 +1,44 @@
+flags: {}
+packages:
+- lambdabot/lambdabot/
+- lambdabot/lambdabot-core/
+- lambdabot/lambdabot-haskell-plugins/
+- lambdabot/lambdabot-irc-plugins/
+- lambdabot/lambdabot-misc-plugins/
+- lambdabot/lambdabot-novelty-plugins/
+- lambdabot/lambdabot-reference-plugins/
+- lambdabot/lambdabot-social-plugins/
+- lambdabot/lambdabot-trusted/
+- lambdabot-hipchat-plugins/
+- location:
+    git: git@github.com:gwern/mueval.git
+    commit: d91fa64f057142f140d2f3c8e4e79d7a199bd924
+extra-deps:
+- brainfuck-0.1
+- IOSpec-0.2.5
+- SafeSemaphore-0.10.1
+- Stream-0.4.7.2
+- arrows-0.4.4.1
+- dependent-map-0.1.1.3
+- dependent-sum-0.2.1.0
+- dependent-sum-template-0.0.0.3
+- dice-0.1
+- dns-2.0.0
+- hstatsd-0.1
+- knob-0.1.1
+- lazysmallcheck-0.6
+- lens-family-1.2.0
+- misfortune-0.1.1.2
+- oeis-0.3.6
+- pontarius-xmpp-0.4.2.1
+- regex-pcre-0.94.4
+- show-0.6
+- unlambda-0.1.4.1
+- xml-picklers-0.3.6
+- utf8-string-0.3.8
+- QuickCheck-safe-0.1.0.1
+extra-include-dirs:
+- /usr/local/opt/icu4c/include # homebrew for Mac OS X
+extra-lib-dirs:
+- /usr/local/opt/icu4c/lib     # homebrew for Mac OS X
+resolver: lts-2.15

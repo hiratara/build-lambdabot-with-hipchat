@@ -1,0 +1,5 @@
+Build lambdabot with hipchat plugins by using stack.
+
+1. Install `stack` command
+2. Run `stack setup`
+3. Run `stack build` 

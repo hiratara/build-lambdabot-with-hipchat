@@ -1,0 +1,6 @@
+[submodule "lambdabot-hipchat-plugins"]
+	path = lambdabot-hipchat-plugins
+	url = git@github.com:hiratara/lambdabot-hipchat-plugins.git
+[submodule "lambdabot"]
+	path = lambdabot
+	url = git@github.com:hiratara/lambdabot.git
